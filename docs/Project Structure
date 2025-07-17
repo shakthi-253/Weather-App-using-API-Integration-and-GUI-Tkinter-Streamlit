@@ -1,0 +1,17 @@
+
+Project Structure Overview:
+
+weather_app.py (Main - GUI)
+├── imports weather_api.py
+├── reads .env
+└── shows GUI window
+
+streamlit_weather_app.py (Main - Web)
+├── imports weather_api.py
+├── reads .env
+└── launches web app
+
+weather_api.py (Helper)
+├── handles API requests
+├── processes weather/forecast data
+└── provides sample data
